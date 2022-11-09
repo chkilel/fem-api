@@ -1,0 +1,38 @@
+_id: req_c4390d78091d46b29e774cf6301b99af
+type: Request
+parentId: fld_539389324c5d48c4a04e048b4d4d422b
+modified: 1668012222337
+created: 1668011970915
+url: https://fem-fca-gateway.staging.fcms.io/recruiters/actions
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"from": "2022-05-01T00:00:00Z",
+    	"to": "2022-12-01T00:00:00Z",
+    	"recruiterIds": [
+    		"1572623996994960"
+    	],
+    	"companyId": "150065588784674"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_97bdbb996d3d4dd4aab6593f0aea77f8
+  - id: pair_205681a04b5444e6be62861191b7db62
+    name: x-api-key
+    value: AIzaSyDZVHBOtA9T-rGcx4hzyvsb4aQ4HaoS2fk
+    description: ""
+authentication: {}
+metaSortKey: -1668011970915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
